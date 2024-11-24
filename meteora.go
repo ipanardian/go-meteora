@@ -52,8 +52,8 @@ type MeteoraData struct {
 	CurrentPrice          float64 `json:"current_price"`
 	Apr                   float64 `json:"apr"`
 	Apy                   float64 `json:"apy"`
-	FarmApr               int     `json:"farm_apr"`
-	FarmApy               int     `json:"farm_apy"`
+	FarmApr               float64 `json:"farm_apr"`
+	FarmApy               float64 `json:"farm_apy"`
 	Hide                  bool    `json:"hide"`
 }
 
